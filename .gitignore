@@ -1,0 +1,103 @@
+# =================================
+# FARMDOCTOR AI - ROOT GITIGNORE
+# =================================
+
+# 1. Secrets and environment variables
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.pem
+*.key
+
+# 2. Python temporary files & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 3. Database files
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+backend/app/data/*.db*
+backend/data/
+
+# 4. Private user uploads
+uploads/
+**/uploads/
+user_uploads/
+**/user_uploads/
+backend/app/uploads/
+storage/
+private_uploads/
+
+# 5. Datasets (Large training & raw download archives)
+dataset/
+datasets/
+dataset_download/
+**/dataset/
+**/datasets/
+*.zip
+*.tar.gz
+*.tar
+
+# 6. Machine learning model checkpoints
+models/*.pth
+models/*.pt
+models/*.onnx
+models/*.bin
+models/*.safetensors
+*.pth
+*.pt
+*.onnx
+*.bin
+*.safetensors
+checkpoints/
+runs/
+wandb/
+
+# 7. Frontend dependencies and build files
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+frontend/.next/
+out/
+**/out/
+dist/
+build/
+
+# 8. Logs and temporary files
+*.log
+*.tmp
+temp/
+tmp/
+
+# 9. Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 10. Whitelisted scientific assets
+!backend/app/data/knowledge_base.json
+
+# Next.js generated files
+**/.next/
+**/out/
+# Ignore private SQLite database
+backend/app/data/farmdoctor.db
+backend/app/data/farmdoctor.db-*
+backend/app/data/*.sqlite
+backend/app/data/*.sqlite3
+
+# Keep public agricultural knowledge base
+!backend/app/data/knowledge_base.json

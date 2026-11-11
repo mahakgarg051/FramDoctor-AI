@@ -1,0 +1,743 @@
+[
+  {
+    "disease_id": "tomato_early_blight",
+    "crop": "Tomato",
+    "disease_name": "Early Blight",
+    "raw_class": "Tomato___Early_blight",
+    "scientific_name": "Alternaria solani",
+    "pathogen_type": "fungal",
+    "is_healthy": false,
+    "common_symptoms": [
+      "Circular dark brown to black spots with concentric rings forming a characteristic 'target board' pattern.",
+      "Yellow chlorotic halos surrounding lesions on older foliage first.",
+      "Premature leaf yellowing, drying, and dropping, exposing green fruit to sunscald.",
+      "Dark, sunken stem lesions near the soil line on seedlings (collar rot)."
+    ],
+    "favorable_environmental_conditions": {
+      "optimal_temp_celsius": "24°C to 29°C",
+      "humidity_threshold": "High relative humidity (> 80%)",
+      "leaf_wetness_hours": "Extended leaf wetness (6 to 10 hours) from dew, fog, or overhead watering.",
+      "risk_factors": "Warm, rainy periods alternating with dry spells favor rapid sporulation and dispersal."
+    },
+    "prevention_practices": [
+      "Practice 3 to 4 year crop rotation avoiding other Solanaceous crops (potato, eggplant, pepper).",
+      "Install drip irrigation or soaker hoses to keep foliage completely dry during watering.",
+      "Apply 2 to 3 inches of clean organic mulch (straw or dried grass) to prevent fungal spores from splashing up from soil.",
+      "Stake and prune indeterminate tomato vines to maintain vertical canopy airflow and sunlight penetration."
+    ],
+    "safe_management_guidance": [
+      "Prune and discard infected lower leaves as soon as first target spots appear; never leave cuttings in field.",
+      "Apply preventative bio-control formulations such as Trichoderma harzianum or Bacillus subtilis according to label directions.",
+      "Apply preventative copper-based organic protective sprays during warm, humid weather before rain events.",
+      "Sterilize pruning shears with 70% alcohol or 10% bleach solution between plant rows."
+    ],
+    "when_to_seek_expert": [
+      "When lesions spread rapidly up the canopy across more than 20% of plants in a block.",
+      "If dark cankers girdle stems or cause sudden plant collapse.",
+      "When standard cultural sanitation fails to arrest progress during prolonged rainy spells."
+    ],
+    "chemical_disclaimer": "Do NOT apply synthetic systemic fungicides without a physical sample verification from an agricultural officer. Follow locally registered label directions and strict pre-harvest intervals (PHI).",
+    "references": [
+      {
+        "source_name": "TNAU Agritech Portal: Tomato Crop Protection (Early Blight)",
+        "publisher": "Tamil Nadu Agricultural University (TNAU)",
+        "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_diseases_veg_tomato.html"
+      },
+      {
+        "source_name": "UC IPM Pest Management Guidelines: Tomato Early Blight",
+        "publisher": "University of California Statewide Integrated Pest Management Program",
+        "source_url": "https://ipm.ucanr.edu/agriculture/tomato/early-blight/"
+      },
+      {
+        "source_name": "ICAR-IIHR Tomato Disease Management Advisory",
+        "publisher": "ICAR - Indian Institute of Horticultural Research",
+        "source_url": "https://www.iihr.res.in"
+      }
+    ]
+  },
+  {
+    "disease_id": "tomato_late_blight",
+    "crop": "Tomato",
+    "disease_name": "Late Blight",
+    "raw_class": "Tomato___Late_blight",
+    "scientific_name": "Phytophthora infestans",
+    "pathogen_type": "oomycete",
+    "is_healthy": false,
+    "common_symptoms": [
+      "Irregular water-soaked pale green to dark brown lesions that rapidly enlarge.",
+      "White, delicate downy or cottony fungal growth on the underside of leaves during cool, humid mornings.",
+      "Rapid wilting and browning of entire stems giving a frost-damaged or scorched appearance.",
+      "Greasy, olive-brown firm rot on green or ripening tomato fruit."
+    ],
+    "favorable_environmental_conditions": {
+      "optimal_temp_celsius": "15°C to 22°C (cool to moderate)",
+      "humidity_threshold": "Persistent high humidity (> 90%)",
+      "leaf_wetness_hours": "Continuous leaf wetness for 8 to 12 hours.",
+      "risk_factors": "Cool foggy mornings, continuous drizzle, and overcast cloud cover promote explosive outbreaks."
+    },
+    "prevention_practices": [
+      "Always source certified disease-free seedlings and resistant tomato hybrids (e.g., Mountain Magic, Defiant).",
+      "Space plants generously (at least 60-75 cm apart) to allow foliage to dry rapidly after rain.",
+      "Eliminate cull piles, volunteer tomato sprouts, and nearby volunteer potato plants that harbor overwintering mycelium.",
+      "Avoid overhead sprinkler irrigation at all times."
+    ],
+    "safe_management_guidance": [
+      "Immediately rogue out and destroy severely infected plants; seal in bags or bury deeply away from the plot.",
+      "Apply preventative copper hydroxide or copper octanoate protectant sprays prior to cool, rainy weather fronts.",
+      "Improve air drainage by trimming surrounding tall weeds and border vegetation.",
+      "Monitor weather forecasts closely; spore dispersal occurs rapidly on wind currents."
+    ],
+    "when_to_seek_expert": [
+      "Late blight is a community-level threat; notify your local KVK or district horticulture officer immediately upon suspecting late blight.",
+      "When white sporulation is detected on multiple plants across neighboring rows."
+    ],
+    "chemical_disclaimer": "Late blight can destroy entire crop acreage within 7 to 10 days. Consult licensed extension agronomists for emergency containment protocols adhering to local regulations.",
+    "references": [
+      {
+        "source_name": "Cornell Cooperative Extension: Late Blight on Tomato & Potato",
+        "publisher": "Cornell University College of Agriculture and Life Sciences",
+        "source_url": "https://cals.cornell.edu"
+      },
+      {
+        "source_name": "UC IPM Pest Management Guidelines: Tomato Late Blight",
+        "publisher": "University of California Integrated Pest Management",
+        "source_url": "https://ipm.ucanr.edu/agriculture/tomato/late-blight/"
+      },
+      {
+        "source_name": "ICAR-CPRI Disease Surveillance Guidelines",
+        "publisher": "ICAR - Central Potato Research Institute",
+        "source_url": "https://cpri.icar.gov.in"
+      }
+    ]
+  },
+  {
+    "disease_id": "tomato_bacterial_spot",
+    "crop": "Tomato",
+    "disease_name": "Bacterial Spot",
+    "raw_class": "Tomato___Bacterial_spot",
+    "scientific_name": "Xanthomonas vesicatoria / Xanthomonas perforans",
+    "pathogen_type": "bacterial",
+    "is_healthy": false,
+    "common_symptoms": [
+      "Small, dark, greasy or water-soaked circular to angular lesions on leaves (1 to 3 mm).",
+      "Lesions turn black with a yellow halo; central tissues may dry out and tear, creating a ragged appearance.",
+      "Extensive leaf yellowing and blighting under heavy infection.",
+      "Small, raised black scabby pustules on green fruit with a white halo."
+    ],
+    "favorable_environmental_conditions": {
+      "optimal_temp_celsius": "24°C to 30°C",
+      "humidity_threshold": "High humidity and driving rain",
+      "leaf_wetness_hours": "Surface moisture allows bacteria to enter via stomata and wounds.",
+      "risk_factors": "Wind-driven rains, handling wet foliage, and overhead watering promote rapid inter-plant transmission."
+    },
+    "prevention_practices": [
+      "Use certified disease-free, hot-water-treated seed from reputable commercial suppliers.",
+      "Do not enter, prune, or harvest crops when leaves are wet from dew or rainfall.",
+      "Disinfect greenhouse benches, stakes, and tools with 10% household bleach or quaternary ammonium."
+    ],
+    "safe_management_guidance": [
+      "Remove infected seedlings from nursery beds immediately.",
+      "Apply fixed copper sprays combined with bio-fungicide alternatives before rain forecast.",
+      "Practice 2-year crop rotation away from peppers and tomatoes.",
+      "Use plastic or organic mulch to reduce soil-to-foliage splashing."
+    ],
+    "when_to_seek_expert": [
+      "When spot lesions appear on over 25% of seedlings in nursery trays.",
+      "If fruit lesions cause extensive cracking or secondary soft rot."
+    ],
+    "chemical_disclaimer": "Agricultural antibiotics are strictly restricted in most jurisdictions. Do not apply unapproved chemicals. Consult extension specialists.",
+    "references": [
+      {
+        "source_name": "UC IPM: Tomato Bacterial Spot",
+        "publisher": "University of California Statewide Integrated Pest Management",
+        "source_url": "https://ipm.ucanr.edu/agriculture/tomato/bacterial-spot/"
+      },
+      {
+        "source_name": "TNAU Crop Protection: Bacterial Spot of Tomato",
+        "publisher": "Tamil Nadu Agricultural University",
+        "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_diseases_veg_tomato.html"
+      }
+    ]
+  },
+  {
+    "disease_id": "tomato_healthy",
+    "crop": "Tomato",
+    "disease_name": "Healthy Foliage",
+    "raw_class": "Tomato___healthy",
+    "scientific_name": "Solanum lycopersicum",
+    "pathogen_type": "none",
+    "is_healthy": true,
+    "common_symptoms": [
+      "Deep uniform green leaf coloration with no chlorotic margins or necrotic spotting.",
+      "Turgid, flexible leaf lamina with healthy trichomes (leaf hairs).",
+      "Vigorous stem and blossom cluster development."
+    ],
+    "favorable_environmental_conditions": {
+      "optimal_temp_celsius": "20°C to 28°C",
+      "humidity_threshold": "Moderate relative humidity (50% to 70%)",
+      "leaf_wetness_hours": "Minimal foliar wetness; well-aerated microclimate.",
+      "risk_factors": "Maintain steady moisture to avoid blossom end rot and foliar stress."
+    },
+    "prevention_practices": [
+      "Continue regular scouting twice a week, inspecting leaf undersides and crowns for early pests.",
+      "Apply well-rotted farmyard manure (FYM) or vermicompost for balanced micronutrients.",
+      "Maintain consistent drip irrigation schedule to prevent blossom-end rot and fruit splitting."
+    ],
+    "safe_management_guidance": [
+      "No fungicide spray required.",
+      "Maintain beneficial insect border plantings (marigolds, coriander, fennel) to encourage natural predators (ladybugs, parasitoid wasps)."
+    ],
+    "when_to_seek_expert": [
+      "If unexplained leaf curling or stunting appears on new shoot flushes without clear pathogen spots."
+    ],
+    "chemical_disclaimer": "Foliage is healthy. Do not apply chemical pesticides prophylactically; unnecessary sprays kill beneficial natural predators.",
+    "references": [
+      {
+        "source_name": "FAO Tomato Production & Pest Management Guide",
+        "publisher": "Food and Agriculture Organization (FAO)",
+        "source_url": "https://www.fao.org"
+      },
+      {
+        "source_name": "ICAR-IARI Good Agricultural Practices for Tomato",
+        "publisher": "ICAR - Indian Agricultural Research Institute",
+        "source_url": "https://www.iari.res.in"
+      }
+    ]
+  },
+  {
+    "disease_id": "potato_early_blight",
+    "crop": "Potato",
+    "disease_name": "Early Blight",
+    "raw_class": "Potato___Early_blight",
+    "scientific_name": "Alternaria solani",
+    "pathogen_type": "fungal",
+    "is_healthy": false,
+    "common_symptoms": [
+      "Dark brown to black circular lesions showing concentric rings on lower, mature foliage.",
+      "Leaves become leathery, turn yellow around lesions, and die prematurely.",
+      "Brown corky dry rot lesions on tubers with raised dark margins."
+    ],
+    "favorable_environmental_conditions": {
+      "optimal_temp_celsius": "22°C to 30°C",
+      "humidity_threshold": "Alternating wet and dry periods",
+      "leaf_wetness_hours": "Heavy morning dew followed by warm, dry sunny afternoons.",
+      "risk_factors": "Crop stress due to nutrient deficiency or drought increases susceptibility."
+    },
+    "prevention_practices": [
+      "Provide optimal nitrogen and potassium fertilization; nitrogen-deficient crops suffer worse early blight.",
+      "Rotate with non-host crops (corn, wheat, mustard) for 2 to 3 years.",
+      "Destroy potato vines 2 weeks prior to harvest to allow tuber skins to harden."
+    ],
+    "safe_management_guidance": [
+      "Maintain uniform soil moisture using drip or furrow systems; avoid sprinkler-induced canopy wetting.",
+      "Apply protective copper formulations at first sign of lower leaf spotting.",
+      "Sanitize potato storage bins and grading equipment between seasons."
+    ],
+    "when_to_seek_expert": [
+      "If more than 15% of lower canopy foliage shows target lesions before tuber bulking phase."
+    ],
+    "chemical_disclaimer": "Consult local agricultural extension guidelines for approved fungicides and follow label restrictions.",
+    "references": [
+      {
+        "source_name": "ICAR-CPRI Potato Disease Bulletin",
+        "publisher": "ICAR - Central Potato Research Institute",
+        "source_url": "https://cpri.icar.gov.in"
+      },
+      {
+        "source_name": "University of Idaho Extension: Potato Early Blight Management",
+        "publisher": "University of Idaho Extension",
+        "source_url": "https://www.uidaho.edu/extension"
+      }
+    ]
+  },
+  {
+    "disease_id": "potato_late_blight",
+    "crop": "Potato",
+    "disease_name": "Late Blight",
+    "raw_class": "Potato___Late_blight",
+    "scientific_name": "Phytophthora infestans",
+    "pathogen_type": "oomycete",
+    "is_healthy": false,
+    "common_symptoms": [
+      "Water-soaked dark lesions expanding rapidly into brown or purplish-black blighted areas.",
+      "White moldy mildew growth on leaf undersides in humid mornings.",
+      "Foul decay smell in field as foliage collapses.",
+      "Reddish-brown granular dry rot extending into tuber flesh beneath skin."
+    ],
+    "favorable_environmental_conditions": {
+      "optimal_temp_celsius": "12°C to 20°C",
+      "humidity_threshold": "> 90% relative humidity",
+      "leaf_wetness_hours": "10 to 12 hours of leaf wetness.",
+      "risk_factors": "Overcast weather, persistent fog, and cool nighttime temperatures stimulate sporangia release."
+    },
+    "prevention_practices": [
+      "Plant only certified disease-free seed tubers with zero late blight tolerance.",
+      "Hill soil well over tubers (at least 10-15 cm) to prevent spores washing into soil cracks.",
+      "Destroy volunteer potato plants and discard diseased tubers in deep pits away from fields."
+    ],
+    "safe_management_guidance": [
+      "Spray preventative copper protectants before anticipated cool, overcast weather fronts.",
+      "Desiccate or kill vines 10 to 14 days before harvest if late blight is active to prevent tuber contact at digging.",
+      "Store harvested tubers in well-ventilated, cool, dry conditions; discard any showing rot."
+    ],
+    "when_to_seek_expert": [
+      "Late blight is an emergency quarantine threat in many regions; report immediately to local potato research stations or KVK."
+    ],
+    "chemical_disclaimer": "Do not delay reporting; late blight spreads exponentially. Consult agricultural university recommendations for regional spray advisories.",
+    "references": [
+      {
+        "source_name": "ICAR-CPRI Late Blight Forecasting and Management",
+        "publisher": "ICAR - Central Potato Research Institute",
+        "source_url": "https://cpri.icar.gov.in"
+      },
+      {
+        "source_name": "Michigan State University Extension: Potato Late Blight",
+        "publisher": "Michigan State University",
+        "source_url": "https://www.canr.msu.edu/vegetables/"
+      }
+    ]
+  },
+  {
+    "disease_id": "potato_healthy",
+    "crop": "Potato",
+    "disease_name": "Healthy Foliage",
+    "raw_class": "Potato___healthy",
+    "scientific_name": "Solanum tuberosum",
+    "pathogen_type": "none",
+    "is_healthy": true,
+    "common_symptoms": [
+      "Lush, upright green foliage without chlorosis, mosaics, or necrotic blighting.",
+      "Healthy compound leaves with smooth edges and active photosynthesis."
+    ],
+    "favorable_environmental_conditions": {
+      "optimal_temp_celsius": "18°C to 24°C",
+      "humidity_threshold": "Moderate (60% to 75%)",
+      "leaf_wetness_hours": "Foliage dries within 2 hours after morning dew.",
+      "risk_factors": "Avoid over-irrigation to prevent tuber lenticel enlargement and bacterial soft rot."
+    },
+    "prevention_practices": [
+      "Maintain adequate hilling to ensure developing tubers are protected from sunlight exposure.",
+      "Monitor for aphids and leafhoppers which transmit viral mosaic diseases.",
+      "Balance soil nutrients based on periodic soil testing."
+    ],
+    "safe_management_guidance": [
+      "No chemical sprays necessary for healthy foliage.",
+      "Apply neem cake in soil at planting to deter root grubs and nematodes."
+    ],
+    "when_to_seek_expert": [
+      "If leaves show sudden mosaic mottling, crinkling, or stunting indicative of viral infection."
+    ],
+    "chemical_disclaimer": "No treatment required. Avoid unnecessary chemical applications.",
+    "references": [
+      {
+        "source_name": "ICAR-CPRI Good Agricultural Practices for Potato",
+        "publisher": "ICAR - Central Potato Research Institute",
+        "source_url": "https://cpri.icar.gov.in"
+      }
+    ]
+  },
+  {
+    "disease_id": "apple_apple_scab",
+    "crop": "Apple",
+    "disease_name": "Apple Scab",
+    "raw_class": "Apple___Apple_scab",
+    "scientific_name": "Venturia inaequalis",
+    "pathogen_type": "fungal",
+    "is_healthy": false,
+    "common_symptoms": [
+      "Dull olive-green to smoky black velvety spots on upper and lower leaf surfaces.",
+      "Lesions become raised and puckered with indistinct borders.",
+      "Infected leaves turn yellow and drop prematurely (defoliation).",
+      "Rough, corky, cracked scabs on apple fruit surfaces."
+    ],
+    "favorable_environmental_conditions": {
+      "optimal_temp_celsius": "15°C to 24°C",
+      "humidity_threshold": "> 85% relative humidity",
+      "leaf_wetness_hours": "Minimum 6 to 9 continuous hours of leaf moisture for ascospore germination.",
+      "risk_factors": "Spring rainfall following green tip bud stage is the critical primary infection period."
+    },
+    "prevention_practices": [
+      "Rake, shred, or flail-mow fallen orchard leaves in autumn; apply urea (5%) to accelerate decomposition of overwintering pseudothecia.",
+      "Prune apple tree canopies during winter dormancy into open-vase or modified central leader systems for sunlight penetration.",
+      "Plant scab-resistant cultivars (e.g., Prima, Priscilla, Liberty, Honeycrisp) where adapted."
+    ],
+    "safe_management_guidance": [
+      "Apply preventative liquid sulfur or copper formulations at green tip and tight cluster bud stages.",
+      "Avoid overhead sprinkler irrigation in orchards; use under-tree micro-sprinklers or drip lines."
+    ],
+    "when_to_seek_expert": [
+      "When early primary scab lesions appear on over 10% of spur leaves in spring."
+    ],
+    "chemical_disclaimer": "Do not apply sulfur sprays when temperatures exceed 28°C (82°F) to avoid severe leaf and fruit phytotoxicity.",
+    "references": [
+      {
+        "source_name": "Cornell Fruit Resources: Apple Scab Biology and Management",
+        "publisher": "Cornell University Cooperative Extension",
+        "source_url": "https://cals.cornell.edu"
+      },
+      {
+        "source_name": "YSPUHF Solan: Apple Disease Management Advisory",
+        "publisher": "Dr. Y.S. Parmar University of Horticulture and Forestry (Himachal Pradesh)",
+        "source_url": "https://www.yspuniversity.ac.in"
+      }
+    ]
+  },
+  {
+    "disease_id": "apple_black_rot",
+    "crop": "Apple",
+    "disease_name": "Black Rot",
+    "raw_class": "Apple___Black_rot",
+    "scientific_name": "Botryosphaeria obtusa",
+    "pathogen_type": "fungal",
+    "is_healthy": false,
+    "common_symptoms": [
+      "Circular brown leaf spots with purple margins ('frog-eye leaf spot').",
+      "Firm, dark brown to black rot on ripening fruit often showing concentric rings.",
+      "Fruit shrivels into a dry, black mummy that remains attached to branches through winter.",
+      "Reddish-brown sunken cankers on limbs and branches."
+    ],
+    "favorable_environmental_conditions": {
+      "optimal_temp_celsius": "24°C to 28°C",
+      "humidity_threshold": "High humidity and rainy spells",
+      "leaf_wetness_hours": "Leaf wetness for 4 to 8 hours.",
+      "risk_factors": "Winter freeze injury, fire blight cankers, and mechanical limb damage provide entry points."
+    },
+    "prevention_practices": [
+      "Prune out all dead wood, broken branches, and cankers during winter pruning, cutting 15 cm below visible infection.",
+      "Remove and burn all mummified apples from trees and orchard floor before spring bud break.",
+      "Control insect pests (codling moth, plum curculio) that create fruit entry wounds."
+    ],
+    "safe_management_guidance": [
+      "Apply dormant copper or lime-sulfur sprays before bud swelling.",
+      "Sterilize pruning saws and shears with alcohol between trees."
+    ],
+    "when_to_seek_expert": [
+      "When deep cankers expand along main scaffolds or trunk."
+    ],
+    "chemical_disclaimer": "Always consult local horticultural extension specialists before selecting spray chemicals.",
+    "references": [
+      {
+        "source_name": "Penn State Extension: Apple Black Rot",
+        "publisher": "Penn State College of Agricultural Sciences",
+        "source_url": "https://extension.psu.edu"
+      }
+    ]
+  },
+  {
+    "disease_id": "apple_healthy",
+    "crop": "Apple",
+    "disease_name": "Healthy Foliage",
+    "raw_class": "Apple___healthy",
+    "scientific_name": "Malus domestica",
+    "pathogen_type": "none",
+    "is_healthy": true,
+    "common_symptoms": [
+      "Crisp, oval-shaped dark green leaves with finely serrated borders.",
+      "Vigorous spur and terminal growth with clean leaf surfaces."
+    ],
+    "favorable_environmental_conditions": {
+      "optimal_temp_celsius": "18°C to 25°C",
+      "humidity_threshold": "Moderate",
+      "leaf_wetness_hours": "Dry canopy with ample interior ventilation."
+    },
+    "prevention_practices": [
+      "Maintain annual pruning to preserve open canopy structure.",
+      "Apply balanced compost around tree dripline in early spring.",
+      "Scout periodically for mites and aphids."
+    ],
+    "safe_management_guidance": [
+      "No chemical sprays needed on healthy foliage."
+    ],
+    "when_to_seek_expert": [
+      "If sudden leaf drop or terminal dieback occurs without spot symptoms."
+    ],
+    "chemical_disclaimer": "Healthy foliage requires no fungicide applications.",
+    "references": [
+      {
+        "source_name": "ICAR-CITH Apple Orchard Management",
+        "publisher": "ICAR - Central Institute of Temperate Horticulture (Srinagar)",
+        "source_url": "https://cith.icar.gov.in"
+      }
+    ]
+  },
+  {
+    "disease_id": "corn_common_rust",
+    "crop": "Corn (maize)",
+    "disease_name": "Common Rust",
+    "raw_class": "Corn_(maize)___Common_rust_",
+    "scientific_name": "Puccinia sorghi",
+    "pathogen_type": "fungal",
+    "is_healthy": false,
+    "common_symptoms": [
+      "Small, oval to elongate cinnamon-brown powdery pustules (uredinia) scattered across both leaf surfaces.",
+      "Pustules rupture epidermal tissue, releasing rust-colored powdery spores onto hands when touched.",
+      "Severe infections cause leaves to turn yellow, dry out, and die prematurely."
+    ],
+    "favorable_environmental_conditions": {
+      "optimal_temp_celsius": "16°C to 25°C (moderate, cool)",
+      "humidity_threshold": "> 95% relative humidity",
+      "leaf_wetness_hours": "6 hours of continuous dew or moisture.",
+      "risk_factors": "Windborne urediniospores travel hundreds of kilometers on storm fronts from southern regions."
+    },
+    "prevention_practices": [
+      "Plant corn hybrids possessing genetic resistance (Rp genes).",
+      "Plant early in the season to allow crop development past critical grain-fill before spore flights arrive.",
+      "Rotate with non-grass crops (soybeans, pulses)."
+    ],
+    "safe_management_guidance": [
+      "Scout fields weekly from whorl stage to dent stage, checking mid-canopy leaves.",
+      "Maintain balanced soil nutrition; avoid excessive late nitrogen applications."
+    ],
+    "when_to_seek_expert": [
+      "When pustules cover more than 5% of ear leaf area before blister stage (R2)."
+    ],
+    "chemical_disclaimer": "Fungicide applications are rarely cost-effective on field corn unless severe infection hits high-value seed or sweet corn before silking. Consult local extension.",
+    "references": [
+      {
+        "source_name": "Purdue Extension: Corn Diseases (Common Rust)",
+        "publisher": "Purdue University Extension",
+        "source_url": "https://extension.purdue.edu"
+      },
+      {
+        "source_name": "ICAR-IIMR Maize Crop Protection Guidelines",
+        "publisher": "ICAR - Indian Institute of Maize Research",
+        "source_url": "https://iimr.icar.gov.in"
+      }
+    ]
+  },
+  {
+    "disease_id": "grape_black_rot",
+    "crop": "Grape",
+    "disease_name": "Black Rot",
+    "raw_class": "Grape___Black_rot",
+    "scientific_name": "Guignardia bidwellii",
+    "pathogen_type": "fungal",
+    "is_healthy": false,
+    "common_symptoms": [
+      "Reddish-brown circular leaf spots with dark margins and tiny black dots (pycnidia) inside.",
+      "Young green berries develop pale spots that turn brown and rapidly rot the entire berry within 48 hours.",
+      "Berries turn into hard, blue-black, wrinkled mummies that cling tightly to grape clusters."
+    ],
+    "favorable_environmental_conditions": {
+      "optimal_temp_celsius": "21°C to 27°C",
+      "humidity_threshold": "High humidity following rain",
+      "leaf_wetness_hours": "Continuous wetness for 6 to 9 hours.",
+      "risk_factors": "Infection occurs from bud break through 4 to 5 weeks after bloom."
+    },
+    "prevention_practices": [
+      "Remove and burn all mummified grape clusters during winter dormant pruning.",
+      "Prune and tuck shoots in trellis canopies to maximize airflow and sunlight penetration.",
+      "Maintain clean weed-free vineyard floor beneath vine rows to accelerate drying."
+    ],
+    "safe_management_guidance": [
+      "Apply preventative copper or sulfur-based sprays from 2 to 3 inch shoot growth through post-bloom.",
+      "Sterilize pruning shears between rows."
+    ],
+    "when_to_seek_expert": [
+      "When berry rot symptoms emerge in more than 5% of grape clusters before veraison."
+    ],
+    "chemical_disclaimer": "Follow strict regional wine/table grape pre-harvest intervals. Consult NRC Grapes or extension agronomists.",
+    "references": [
+      {
+        "source_name": "ICAR-NRCG Viticulture Disease Advisory",
+        "publisher": "ICAR - National Research Centre for Grapes (Pune)",
+        "source_url": "https://nrcgrapes.icar.gov.in"
+      },
+      {
+        "source_name": "Penn State Extension: Grape Black Rot",
+        "publisher": "Penn State College of Agricultural Sciences",
+        "source_url": "https://extension.psu.edu"
+      }
+    ]
+  },
+  {
+    "disease_id": "rice_blast",
+    "crop": "Rice",
+    "disease_name": "Rice Blast",
+    "raw_class": "Rice___Blast",
+    "scientific_name": "Magnaporthe oryzae (Pyricularia oryzae)",
+    "pathogen_type": "fungal",
+    "is_healthy": false,
+    "common_symptoms": [
+      "Spindle-shaped or elliptical eye spots with gray or whitish centers and dark reddish-brown margins on leaves.",
+      "Dark brown to black necrotic lesions on the panicle neck node leading to lodging or empty white heads (Neck Blast).",
+      "Blackened nodal joints causing culm breakage under moderate wind (Node Blast).",
+      "Severe leaf blighting during the tillering stage causing seedlings to burn and wither."
+    ],
+    "favorable_environmental_conditions": {
+      "optimal_temp_celsius": "20°C to 28°C",
+      "humidity_threshold": "High relative humidity (> 90%)",
+      "leaf_wetness_hours": "10 to 14 hours of continuous leaf wetness from dew or intermittent light showers.",
+      "risk_factors": "Excessive nitrogen (urea) fertilizer applications, dense planting, and cool nighttime temperatures."
+    },
+    "prevention_practices": [
+      "Use certified blast-resistant paddy varieties recommended by ICAR-NRRI.",
+      "Practice balanced fertilizer management: avoid single heavy doses of urea and split nitrogen into 3-4 applications with adequate potash.",
+      "Treat seeds with biocontrol agents such as Trichoderma harzianum or Pseudomonas fluorescens before sowing.",
+      "Maintain optimal water level in the field; avoid prolonged dry spells that induce soil moisture stress."
+    ],
+    "safe_management_guidance": [
+      "Rogue and remove severely blasted nursery seedlings before transplanting to main fields.",
+      "Apply prophylactic organic neem formulations (10,000 ppm) during early tillering if weather is overcast and humid.",
+      "Refrain from excess top-dressing of nitrogen when initial spindle lesions appear on leaf tips."
+    ],
+    "when_to_seek_expert": [
+      "If neck blast lesions appear at early heading stage endangering the entire panicle harvest.",
+      "When leaf blast covers more than 15-20% of the upper canopy across the field.",
+      "If rapid wilting and seedling burn occur across nursery beds."
+    ],
+    "chemical_disclaimer": "Do NOT spray synthetic fungicides without direct sample verification by an agricultural extension specialist or KVK scientist. Observe pre-harvest intervals strictly.",
+    "references": [
+      {
+        "source_name": "IRRI Rice Knowledge Bank: Rice Blast Management",
+        "publisher": "International Rice Research Institute (IRRI)",
+        "source_url": "http://www.knowledgebank.irri.org/step-by-step-production/growth/pests-and-diseases/diseases/rice-blast"
+      },
+      {
+        "source_name": "ICAR-NRRI Rice Pathology Advisory Bulletin",
+        "publisher": "ICAR - National Rice Research Institute",
+        "source_url": "https://icar-nrri.gov.in"
+      }
+    ]
+  },
+  {
+    "disease_id": "rice_brown_spot",
+    "crop": "Rice",
+    "disease_name": "Brown Spot",
+    "raw_class": "Rice___Brown_spot",
+    "scientific_name": "Bipolaris oryzae (Cochliobolus miyabeanus)",
+    "pathogen_type": "fungal",
+    "is_healthy": false,
+    "common_symptoms": [
+      "Small circular to oval reddish-brown to dark brown spots uniformly scattered across leaf blades.",
+      "Larger lesions developing a light brown or grayish center surrounded by a bright yellow chlorotic halo.",
+      "Brown discoloration and dark spots on glumes causing poor grain filling and seed discoloration.",
+      "Seedling blight resulting in weak, stunted tillers with withered leaves."
+    ],
+    "favorable_environmental_conditions": {
+      "optimal_temp_celsius": "25°C to 32°C",
+      "humidity_threshold": "Moderate to high relative humidity (80% to 90%)",
+      "leaf_wetness_hours": "Prolonged dew deposits (8 to 12 hours) on foliage.",
+      "risk_factors": "Soil nutrient deficiency (especially silicon, potassium, and micronutrients), drought stress, or sandy infertile soils."
+    },
+    "prevention_practices": [
+      "Correct soil nutrient deficiencies with balanced NPK application plus zinc and potassium amendments.",
+      "Ensure uninterrupted irrigation during tillering and panicle initiation to prevent moisture stress.",
+      "Practice hot-water seed treatment (52°C to 54°C for 10-12 minutes) or biocontrol seed priming with Trichoderma viride.",
+      "Burn or bury infected stubble and plow deep after harvest."
+    ],
+    "safe_management_guidance": [
+      "Apply foliar spray of potassium silicate to strengthen plant cell wall resistance.",
+      "Spray bio-fungicides or botanical extracts (such as garlic-neem emulsions) at the first sign of leaf spots.",
+      "Avoid letting paddy plots dry out and crack between irrigation rounds."
+    ],
+    "when_to_seek_expert": [
+      "When brown spots spread across flag leaves during grain filling stages.",
+      "If discoloration covers over 25% of glumes in panicles.",
+      "When leaf symptoms are accompanied by general chlorosis despite adequate watering."
+    ],
+    "chemical_disclaimer": "Use chemical plant protection products only as recommended by local Krishi Vigyan Kendra agronomists following strict safety protocols.",
+    "references": [
+      {
+        "source_name": "TNAU Agritech Portal: Rice Brown Spot Disease Management",
+        "publisher": "Tamil Nadu Agricultural University (TNAU)",
+        "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_diseases_cereals_paddy.html"
+      },
+      {
+        "source_name": "IRRI Rice Knowledge Bank: Brown Spot",
+        "publisher": "International Rice Research Institute (IRRI)",
+        "source_url": "http://www.knowledgebank.irri.org/training/fact-sheets/pest-management/diseases/item/brown-spot"
+      }
+    ]
+  },
+  {
+    "disease_id": "wheat_yellow_rust",
+    "crop": "Wheat",
+    "disease_name": "Yellow Rust (Stripe Rust)",
+    "raw_class": "Wheat___Yellow_rust",
+    "scientific_name": "Puccinia striiformis f. sp. tritici",
+    "pathogen_type": "fungal",
+    "is_healthy": false,
+    "common_symptoms": [
+      "Bright yellow to orange-yellow powdery pustules (uredinia) arranged in distinct linear stripes along leaf veins.",
+      "Pustules wiping off as yellow powder on fingers or clothing upon physical touch.",
+      "Chlorotic striping and rapid desiccation of leaves, particularly the flag leaf.",
+      "Premature leaf death leading to shriveled grains and drastic grain yield reduction."
+    ],
+    "favorable_environmental_conditions": {
+      "optimal_temp_celsius": "10°C to 18°C",
+      "humidity_threshold": "High relative humidity (> 85%)",
+      "leaf_wetness_hours": "At least 3 to 6 hours of continuous dew or fog on leaf surfaces.",
+      "risk_factors": "Cool moist winter weather, extended morning fog, continuous overcast skies, and susceptible monoculture varieties."
+    },
+    "prevention_practices": [
+      "Grow certified yellow rust-resistant wheat cultivars recommended by ICAR-IIWBR (e.g., HD 3086, DBW 187, DBW 222).",
+      "Avoid excessive vegetative lushness by adhering to recommended split nitrogen application schedules.",
+      "Ensure timely sowing in November to escape late cool-season rust epidemics.",
+      "Regularly scout field boundaries and shaded ditch areas where initial foci typically appear first."
+    ],
+    "safe_management_guidance": [
+      "Immediately isolate small yellow patches (foci) in the field to prevent wind-borne dispersal of urediniospores.",
+      "Avoid walking through wet infected fields in the morning to prevent carrying spores on boots and clothes to healthy plots.",
+      "Consult your nearest KVK or block agriculture officer immediately upon observing the first yellow stripe pustule."
+    ],
+    "when_to_seek_expert": [
+      "At the first confirmed sighting of yellow powdery stripes anywhere in the wheat field.",
+      "If flag leaves show pustule formation before or during heading stage.",
+      "When cold humid weather is forecasted to persist while pustules are active."
+    ],
+    "chemical_disclaimer": "Yellow rust can spread aggressively by wind. Consult your local agricultural officer or KVK scientist for recommended triazole fungicide sprays (such as propiconazole or tebuconazole) and follow exact dosages and safety precautions.",
+    "references": [
+      {
+        "source_name": "ICAR-IIWBR Karnal: Wheat Yellow Rust Surveillance and Advisory",
+        "publisher": "ICAR - Indian Institute of Wheat and Barley Research",
+        "source_url": "https://iiwbr.icar.gov.in"
+      },
+      {
+        "source_name": "CIMMYT Global Rust Reference Center",
+        "publisher": "CIMMYT",
+        "source_url": "https://www.cimmyt.org"
+      }
+    ]
+  },
+  {
+    "disease_id": "wheat_healthy",
+    "crop": "Wheat",
+    "disease_name": "Healthy Foliage",
+    "raw_class": "Wheat___Healthy",
+    "scientific_name": "Triticum aestivum",
+    "pathogen_type": "none",
+    "is_healthy": true,
+    "common_symptoms": [
+      "Vibrant uniform green erect leaves without yellow striping, chlorosis, or necrotic spots.",
+      "Clean sturdy tillers and healthy vegetative canopy.",
+      "Normal root system and vigorous tiller production."
+    ],
+    "favorable_environmental_conditions": {
+      "optimal_temp_celsius": "15°C to 25°C",
+      "humidity_threshold": "Moderate relative humidity (50% to 70%)",
+      "leaf_wetness_hours": "Dry foliage during midday with good aeration.",
+      "risk_factors": "Extreme cold or hot dry spells during flowering."
+    },
+    "prevention_practices": [
+      "Apply balanced NPK fertilization with recommended basal and top-dressing timings.",
+      "Irrigate at critical growth stages: Crown Root Initiation (CRI at 21 days), Tillering, Jointing, Flowering, and Milking.",
+      "Maintain weed-free plots during the first 30-40 days of crop growth."
+    ],
+    "safe_management_guidance": [
+      "Conduct weekly field walk-throughs checking leaf undersides and flag leaves.",
+      "Avoid standing water or waterlogging which restricts root respiration."
+    ],
+    "when_to_seek_expert": [
+      "If any unfamiliar leaf spots, powdery streaks, or sudden yellowing appear across multiple plants."
+    ],
+    "chemical_disclaimer": "No chemical application is needed for healthy crops. Maintain balanced organic and mineral nutrition.",
+    "references": [
+      {
+        "source_name": "ICAR-IIWBR Wheat Production Practices Handbook",
+        "publisher": "ICAR - Indian Institute of Wheat and Barley Research",
+        "source_url": "https://iiwbr.icar.gov.in"
+      }
+    ]
+  }
+]

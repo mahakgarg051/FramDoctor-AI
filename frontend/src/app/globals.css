@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FAFAF2;
+  --foreground: #17251C;
+  --forest-green: #14532D;
+  --primary-green: #16803C;
+  --light-green: #E7F4DF;
+  --warm-ivory: #FAFAF2;
+  --card-bg: #FFFFFF;
+  --card-border: #E5EAE2;
+  --text-primary: #17251C;
+  --text-secondary: #55695E;
+  --text-muted: #68756B;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FAFAF2;
+  color: #17251C;
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle modern scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAFAF2;
+}
+::-webkit-scrollbar-thumb {
+  background: #D2D8CF;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #16803C;
+}
+
+@keyframes scanGlow {
+  0%, 100% { opacity: 0.3; transform: scale(0.98); }
+  50% { opacity: 0.8; transform: scale(1.02); }
+}
+
+.animate-scan-glow {
+  animation: scanGlow 3s ease-in-out infinite;
+}

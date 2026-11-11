@@ -1,0 +1,7 @@
+# FarmDoctor AI - Requirements
+# Only the essential dependencies required for training and inference
+
+torch>=2.0.0
+torchvision>=0.15.0
+pillow>=9.0.0
+tqdm>=4.65.0
